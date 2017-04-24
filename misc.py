@@ -26,3 +26,7 @@ import sys
 for i in sys.argv:
 	print i
 	
+#list comprehension
+list =[1,2,3]
+newlist = [i**2 for i in list]
+
